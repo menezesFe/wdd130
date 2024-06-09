@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #d8d9d9;
+}
+
+#logo_link{
+    /* padding-top: 5px; */
+    justify-self: center;
+    align-self: center;
+}
+/* Make logo a rectangle */
+.logo{
+    width: 145px;
+}
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #136f63;
+    text-decoration: none;
+    padding: 32px;
+}
+
+nav a:hover{
+    background-color: #136f63;
+    color: #d8d9d9;
+}
+
+.active {
+    /* text-decoration: underline #fe6d73 2px; */
+    background-color: rgba(210, 212, 200, .6);
+    color: #575a4b;
+}
